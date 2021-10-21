@@ -16,7 +16,7 @@ andra.\
 spelaren har förlorat alla bollar så ska spelet vara över.\
 • Spelaren har tre bollar (liv) på sig för att få så många poäng som möjligt.\
 • Spelet ska startas genom att trycka på space-knappen.\
-• Spelet ska vara spelbart.\
+• Spelet ska vara spelbart.
 
 # Klasser, egenskaper och förmågor
 Genom att analysera kravspecifikationen så kunde jag komma fram till att dessa klasser behövdes:
@@ -25,4 +25,4 @@ Genom att analysera kravspecifikationen så kunde jag komma fram till att dessa 
 ➢ En klass för fönstret.\
 ➢ En klass för bollen.\
 ➢ En klass för Brickor.\
-➢ En klass för slagträet. \
+➢ En klass för slagträet. 

@@ -1,30 +1,30 @@
 # BreakoutGame
-I detta projekt har ett program utvecklats som efterliknar spelet Breakout. Spelet går ut på att man ska i princip styra ett slagträ för att slå iväg en boll, som i sin tur ska träffa ett antal brickor. Spelet består av en spelplan (GameBoard), där den övre delen av spelplanen har brickorna utplacerats. Brickorna består utav flera olika färger. Runt spelplanen finnas det tre väggar för att bollen ska kunna studsa på dem. Vid spelplanens botten finns det inte någon vägg, eftersom när bollen åker ner så ska ett av liven förbrukas. Ett slagträ finns längst ner på spelplanen som bollen kan studsa på, där slagträet styrs med hjälp av tangentbordet. Vissa brickor försvinner vid första träff, medan andra byter färg innan dem försvinner. Brickorna som förvinner vid första träff ska ge en poäng, och brickorna med unika egenskaper ska ge extra poäng. Det är spelarens jobb att försöka träffa bollen med slagträet. Ifall spelaren missar bollen och den hamnar nedanför slagträet, så kommer spelaren få en boll mindre (Ett liv förbrukas). När spelaren har förbrukad tre bollar, det vill säga tre liv, då har spelaren förlorat och med det visas spelarens resultat tydligt på skärmen. Å andra sidan om alla brickor försvinner då har spelaren vunnit och därav visas spelarens resultat på skärmen.
+I detta projekt har ett Javaprogram utvecklats som efterliknar spelet Breakout. Spelet går ut på att man ska i princip styra ett slagträ för att slå iväg en boll, som i sin tur ska träffa ett antal brickor. Spelet består av en spelplan (GameBoard), där den övre delen av spelplanen har brickorna utplacerats. Brickorna består utav flera olika färger. Runt spelplanen finnas det tre väggar för att bollen ska kunna studsa på dem. Vid spelplanens botten finns det inte någon vägg, eftersom när bollen åker ner så ska ett av liven förbrukas. Ett slagträ finns längst ner på spelplanen som bollen kan studsa på, där slagträet styrs med hjälp av tangentbordet. Vissa brickor försvinner vid första träff, medan andra byter färg innan dem försvinner. Brickorna som förvinner vid första träff ska ge en poäng, medan brickorna med unika egenskaper ska ge extra poäng. Det är spelarens jobb att försöka träffa bollen med slagträet och ifall spelaren missar bollen och den hamnar nedanför slagträet, så kommer spelaren få en boll mindre (Ett liv förbrukas). När spelaren har förbrukat tre liv, då har spelaren förlorat och med det visas spelarens resultat tydligt på skärmen. Å andra sidan om alla brickor försvinner då har spelaren vunnit och därav visas spelarens resultat på skärmen.
 
 # Kravspecifikation
-- Spelplanen ska ha tre kanter där bollen kan studsa mot dem.\
-- Spelplanen ska ha ett slagträ som styrs utav tangentbord och förflyttas endast i sidled.\
-- Spelplanen ska ha brickor som försvinner när bollen studsar på dem.\
-- Brickor i spelplanen ska ha olika färger.\
+- Spelplanen ska ha tre kanter där bollen kan studsa mot dem.
+- Spelplanen ska ha ett slagträ som styrs utav tangentbord och förflyttas endast i sidled.
+- Spelplanen ska ha brickor som försvinner när bollen studsar på dem.
+- Brickor i spelplanen ska ha olika färger.
 - Det ska finnas brickor som tar flera olika träffar innan de försvinner, samt ska det även
-visas tydligt genom att byta färg på brickor.\
+visas tydligt genom att byta färg på brickor.
 - Brickor ska ge poäng när spelaren träffar bollen, vissa brickor ska ge mer poäng än
 andra.\
-- Bollen ska kunna studsa på slagträ och brickor.\
-- Spelarens nuvarande poäng ska synas i spelet.\
+- Bollen ska kunna studsa på slagträ och brickor.
+- Spelarens nuvarande poäng ska synas i spelet.
 - Om bollen hamnar nedanför slagträet, så ska en ny boll tilldelas till spelaren. När
-spelaren har förlorat alla bollar så ska spelet vara över.\
-- Spelaren har tre bollar (liv) på sig för att få så många poäng som möjligt.\
-- Spelet ska startas genom att trycka på space-knappen.\
+spelaren har förlorat alla bollar så ska spelet vara över.
+- Spelaren har tre bollar (liv) på sig för att få så många poäng som möjligt.
+- Spelet ska startas genom att trycka på space-knappen.
 - Spelet ska vara spelbart.
 
 # Klasser, egenskaper och förmågor
 Genom att analysera kravspecifikationen så kunde jag komma fram till att dessa klasser behövdes:
-- En mainklass för att att skapa fönstret (Frame).\
-- En klass för mainpanel (Spelplanen).\
-- En klass för fönstret.\
-- En klass för bollen.\
-- En klass för Brickor.\
+- En mainklass för att att skapa fönstret (Frame).
+- En klass för mainpanel (Spelplanen).
+- En klass för fönstret.
+- En klass för bollen.
+- En klass för Brickor.
 - En klass för slagträet. 
 
 ## Mainklass
